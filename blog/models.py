@@ -17,4 +17,4 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        return str(self.title)
+        return 'Title : {}'.format(self.title)
